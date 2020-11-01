@@ -1,2 +1,2 @@
 twisted
-sqlite3
+pysqlite3
