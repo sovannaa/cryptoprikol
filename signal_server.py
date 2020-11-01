@@ -64,7 +64,7 @@ class Query_processing_server(DatagramProtocol):
             print ('Exit!')
             sys.exit(1)
         finally:
-            if conn <> ''
+            if conn != '':
                 conn.close()
 reactor.listenUDP(9102, Query_processing_server())
 print('reactor run!')
